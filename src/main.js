@@ -3,6 +3,8 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import Home from './Home.vue';
+Vue.component('app-server-status', Home);
 
 Vue.config.productionTip = false
 

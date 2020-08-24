@@ -1,5 +1,5 @@
 <template>
-  <p>Server satus: {{ status }}</p>
+  <app-server-status></app-server-status>   
 </template>
 <script>
 export default {
